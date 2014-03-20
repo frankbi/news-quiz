@@ -1,0 +1,28 @@
+{
+	"quizName": "Weekly News Quiz",
+	"creationDate": "3/19/2014",
+	"creator": "Frank Bi",
+	"url": "http://newshour.pbs.org",
+	"ques": [
+		{
+			"prompt": "Which is the state capital of Minnesota?",
+			"blurb": "",
+			"img": "",
+			"ans": "b",
+			"a": "Minneapolis",
+			"b": "Saint Paul",
+			"c": "Bloomington",
+			"d": "Duluth"
+		},
+		{
+			"prompt": "Who is the governor of California?",
+			"blurb": "",
+			"img": "",
+			"ans": "d",
+			"a": "Arnold Schwarzenegger",
+			"b": "Jesse Ventura",
+			"c": "Mike Lowry",
+			"d": "Jerry Brown"
+		}
+	]
+}
