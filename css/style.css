@@ -1,0 +1,44 @@
+
+.cf:before, .cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+#quiz-container {
+	max-width:650px;
+	height:350px;
+	background-color:purple;
+}
+	.ques-container {
+		width:90%;
+		height:100%;
+		margin:0px auto 0px auto;
+		background-color:steelblue;
+	}
+		.prompt {
+
+		}
+		.prompt p {
+
+		}
+		.selection {
+			width:100%;
+			margin:5px 0 5px 0;
+			text-align:center;
+			background-color:black;
+		}
+		.selection p {
+			margin:0px;
+			padding:5px 0px 5px 0px;
+			color:white;
+			font-weight:bold;
+			text-transform:uppercase;
+		}
