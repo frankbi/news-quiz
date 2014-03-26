@@ -3,8 +3,17 @@ var quiz = {
 	// Keeps track of which question we're on
 	counter: 0,
 
-	// Local store of questions from json
+	// Keeps track of quiz state, so things don't break
+	state: 0,
+
+	// Browser store of questions from json
 	questions: [],
+
+	// Total numbers of questions in file
+	// To be set and used later on
+
+	// TODO this ain't working right now
+	total_questions: -1,
 
 	// Init function, called from embed page
 	init: function(json) {
@@ -36,17 +45,22 @@ var quiz = {
 		// Show one question
 		quiz.displayQuestion();
 
+		// Set number of total questions from JSON
+		quiz.total_questions = obj.ques.length;
+
 	},
 
 	// Show one question at a time
 	displayQuestion: function() {
 
-		// var template = Handlebars.compile($("#question-template").html());
-		// $("#quiz-container").html(template(quiz.questions[quiz.counter]));
-		
-		// Attached event handler
-		// Also checks for correctness
-		quiz.attachClick();
+		if (quiz.state != 1) {
+				var template = Handlebars.compile($("#question-template").html());
+				$("#quiz-container").html(template(quiz.questions[quiz.counter]));
+		}
+
+			// Attached event handler
+			// Also checks for correctness
+			quiz.attachClick();
 
 	},
 
@@ -61,17 +75,36 @@ var quiz = {
 	// Called via event handler
 	// Checks to see if selected answer is correct
 	checkAnswer: function(selected) {
-		// console.log(selected);
-		// console.log(quiz.questions[quiz.counter].ans);
 
-		var correct_ans = quiz.questions[quiz.counter].ans;
-
-		if (selected == correct_ans) {
-			console.log("CORRECT");
-		} else {
-			console.log("WRONG");
+		if (quiz.state != 1) {
+			var correct_ans = quiz.questions[quiz.counter].ans;
+			if (selected === correct_ans) {
+				quiz.correct(correct_ans);
+			} else {
+				quiz.incorrect(correct_ans, selected);
+			}
+			$(".ques-container").append("<button class='next-question'>NEXT QUESTION</button>");
+			quiz.nextQuestion();
+			quiz.state = 1;
 		}
 
+	},
+
+	nextQuestion: function() {
+		$(".next-question").click(function() {
+			quiz.counter++;
+			quiz.state = 0;
+			quiz.displayQuestion();
+		});
+	},
+
+	correct: function(el_cor) {
+		$("." + el_cor).css("background-color","green");
+	},
+
+	incorrect: function(el_cor, el_incor) {
+		$("." + el_cor).css("background-color","green");
+		$("." + el_incor).css("background-color","red");
 	}
 
 }

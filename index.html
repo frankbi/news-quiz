@@ -5,7 +5,15 @@
 		<link type="text/css" rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<script type="text/x-handlebars-template" id="question-template"></script>
+		<script type="text/x-handlebars-template" id="question-template">
+				<div class="cf ques-container">
+					<div class="prompt"><p>{{ prompt }}</p></div>
+					<div class="selection a"><p>{{ a }}</p></div>
+					<div class="selection b"><p>{{ b }}</p></div>
+					<div class="selection c"><p>{{ c }}</p></div>
+					<div class="selection d"><p>{{ d }}</p></div>
+				</div>
+		</script>
 		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="js/handlebars-v1.3.0.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
@@ -14,15 +22,19 @@
 				quiz.init("quizzes/news-quiz-031914.json");
 			});
 		</script>
-		<div id="quiz-container" class="cf">
-			<div class="cf ques-container">
-				<!--<img src="img/110539AmarilloTexasPhoto01.jpg" width="100%">-->
-				<div class="prompt"><p>Which state has 10,000 lakes and the best weather in the world? Hint: This is not a test.</p></div>
-				<div class="selection a"><p>Minnesota</p></div>
-				<div class="selection b"><p>Chicago</p></div>
-				<div class="selection c"><p>Maryland</p></div>
-				<div class="selection d"><p>Africa</p></div>
-			</div>
-		</div>
+		<div id="quiz-container" class="cf"></div>
 	</body>
 </html>
+
+<!--
+<div id="quiz-container" class="cf">
+	<div class="cf ques-container">
+		<img src="img/110539AmarilloTexasPhoto01.jpg" width="100%">
+		<div class="prompt"><p>Which state has 10,000 lakes and the best weather in the world? Hint: This is not a test.</p></div>
+		<div class="selection a"><p>Minnesota</p></div>
+		<div class="selection b"><p>Chicago</p></div>
+		<div class="selection c"><p>Maryland</p></div>
+		<div class="selection d"><p>Africa</p></div>
+	</div>
+</div>
+-->
