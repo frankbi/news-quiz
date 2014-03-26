@@ -66,7 +66,7 @@ var quiz = {
 
 		var correct_ans = quiz.questions[quiz.counter].ans;
 
-		if (selected == correc_ans) {
+		if (selected == correct_ans) {
 			console.log("CORRECT");
 		} else {
 			console.log("WRONG");
