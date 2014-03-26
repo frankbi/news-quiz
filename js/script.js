@@ -44,16 +44,34 @@ var quiz = {
 		// var template = Handlebars.compile($("#question-template").html());
 		// $("#quiz-container").html(template(quiz.questions[quiz.counter]));
 		
-
 		// Attached event handler
-		quiz.checkAnswer();
+		// Also checks for correctness
+		quiz.attachClick();
 
 	},
 
 	// Event handler
-	checkAnswer: function() {
+	attachClick: function() {
+		$(".selection").click(function() {
+			var selected = (this.className).replace("selection ","");
+			quiz.checkAnswer(selected);
+		});
+	},
+
+	// Called via event handler
+	// Checks to see if selected answer is correct
+	checkAnswer: function(selected) {
+		// console.log(selected);
+		// console.log(quiz.questions[quiz.counter].ans);
+
+		var correct_ans = quiz.questions[quiz.counter].ans;
+
+		if (selected == correc_ans) {
+			console.log("CORRECT");
+		} else {
+			console.log("WRONG");
+		}
 
 	}
-
 
 }

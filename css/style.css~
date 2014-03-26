@@ -16,7 +16,7 @@
 	background-color:none;
 	font-family:Verdana, Geneva, sans-serif;
 	border:2px steelblue solid;
-	border-radius:0px;
+	border-radius:10px;
 	padding:30px;
 }
 
@@ -26,6 +26,7 @@
 		margin:0px auto 0px auto;
 		background-color:none;
 	}
+
 
 		.prompt {
 			margin:8px 0px 5px 0px;
