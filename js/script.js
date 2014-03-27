@@ -9,12 +9,6 @@ var quiz = {
 	// Browser store of questions from json
 	questions: [],
 
-	// Total numbers of questions in file
-	// To be set and used later on
-
-	// TODO this ain't working right now
-	total_questions: -1,
-
 	// Init function, called from embed page
 	init: function(json) {
 		quiz.getQuestions(json);
@@ -44,9 +38,6 @@ var quiz = {
 
 		// Show one question
 		quiz.displayQuestion();
-
-		// Set number of total questions from JSON
-		quiz.total_questions = obj.ques.length;
 
 	},
 
