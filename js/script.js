@@ -104,7 +104,6 @@ var quiz = {
 	// Called via event handler
 	// Checks to see if selected answer is correct
 	checkAnswer: function(selected) {
-
 		if (quiz.state != 1) {
 			var status;
 			var correct_ans = quiz.questions[quiz.counter].ans;
@@ -120,7 +119,6 @@ var quiz = {
 			quiz.nextQuestion();
 			quiz.state = 1;
 		}
-
 	},
 
 	// Called after checkAnswer() to include blurb and button to next question

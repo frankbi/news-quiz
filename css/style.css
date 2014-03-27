@@ -21,6 +21,9 @@
 		margin:0px auto 0px auto;
 		background-color:none;
 	}
+		.prompt-photo {
+			width:100%;
+		}
 		.prompt {
 			margin:3px 0px 5px 0px;
 			padding:0px;
