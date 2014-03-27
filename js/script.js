@@ -22,6 +22,12 @@ var quiz = {
 	// Stores questions and choices in local array, questions[]
 	processQuestions: function(obj) {
 
+		// Set to global window how many questions are in file
+		window.num_questions = obj.ques.length;
+
+		// Init global score variable
+		window.total_score = 0;
+
 		// Loop through all questions, storing them locally
 		for (var i = 0; i < obj.ques.length; i++) {
 			quiz.questions[i] = {
@@ -41,17 +47,28 @@ var quiz = {
 
 	},
 
+	// DA LOOOOOP
 	// Show one question at a time
 	displayQuestion: function() {
 
-		if (quiz.state != 1) {
-				var template = Handlebars.compile($("#question-template").html());
-				$("#quiz-container").html(template(quiz.questions[quiz.counter]));
+		container = $("#quiz-container");
+
+		var ques_template = Handlebars.compile($("#question-template").html());
+		var end_template = Handlebars.compile($("#end-template").html());
+
+		if (quiz.counter < num_questions) {
+			if (quiz.state != 1) {
+				container.html(ques_template(quiz.questions[quiz.counter]));
+			}
+		} else {
+				container.html(end_template({
+					"score": total_score
+				}));
 		}
 
-			// Attached event handler
-			// Also checks for correctness
-			quiz.attachClick();
+		// Attached event handler
+		// Also checks for correctness
+		quiz.attachClick();
 
 	},
 
@@ -71,6 +88,7 @@ var quiz = {
 			var correct_ans = quiz.questions[quiz.counter].ans;
 			if (selected === correct_ans) {
 				quiz.correct(correct_ans);
+				total_score++;
 			} else {
 				quiz.incorrect(correct_ans, selected);
 			}
