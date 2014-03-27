@@ -11,7 +11,22 @@ var quiz = {
 
 	// Init function, called from embed page
 	init: function(json) {
+		quiz.initFont();
 		quiz.getQuestions(json);
+	},
+
+	// Load font from Google, matched in CSS
+	initFont: function() {
+		WebFontConfig = {
+			google: { families: [ 'Carrois+Gothic+SC::latin' ] }
+		};
+		var wf = document.createElement('script');
+		wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		wf.type = 'text/javascript';
+		wf.async = 'true';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(wf, s);
 	},
 
 	// Gets question data, passes it to process
@@ -58,6 +73,12 @@ var quiz = {
 
 		if (quiz.counter < num_questions) {
 			if (quiz.state != 1) {
+
+				// Passes the total number of questions to the template
+				quiz.questions[quiz.counter].num_q = num_questions;
+
+				// Passes the current numbered question to the template
+				quiz.questions[quiz.counter].num_c = quiz.counter + 1;
 				container.html(ques_template(quiz.questions[quiz.counter]));
 			}
 		} else {
@@ -85,35 +106,55 @@ var quiz = {
 	checkAnswer: function(selected) {
 
 		if (quiz.state != 1) {
+			var status;
 			var correct_ans = quiz.questions[quiz.counter].ans;
 			if (selected === correct_ans) {
 				quiz.correct(correct_ans);
+				status = true;
 				total_score++;
 			} else {
+				status = false;
 				quiz.incorrect(correct_ans, selected);
 			}
-			$(".ques-container").append("<button class='next-question'>NEXT QUESTION</button>");
+			quiz.appendPostQuestion(status);
 			quiz.nextQuestion();
 			quiz.state = 1;
 		}
 
 	},
 
+	// Called after checkAnswer() to include blurb and button to next question
+	appendPostQuestion: function(status) {
+		$(".blurb-container").html(function() {
+			var blurb_text = quiz.questions[quiz.counter].blurb;
+			if (status) {
+				blurb_text = "<span class='correct'>Correct!</span> " + blurb_text;
+			} else {
+				blurb_text = "<span class='incorrect'>Incorrect.</span> " + blurb_text;
+			}
+			return blurb_text;
+		});
+		$(".next-container").html("<button class='next-q'>NEXT</button>");
+	},
+
+	// Triggered when the next button is clicked
 	nextQuestion: function() {
-		$(".next-question").click(function() {
+		$(".next-q").click(function() {
 			quiz.counter++;
 			quiz.state = 0;
 			quiz.displayQuestion();
 		});
 	},
 
+	// Set correct and selected to green
 	correct: function(el_cor) {
-		$("." + el_cor).css("background-color","green");
+		$("." + el_cor).css("background-color","rgba(14,204,52,0.6)");
 	},
 
+	// Set selected div to red, and correct to green
 	incorrect: function(el_cor, el_incor) {
-		$("." + el_cor).css("background-color","green");
-		$("." + el_incor).css("background-color","red");
+		$("." + el_cor).css("background-color","rgba(14,204,52,0.6)");
+		$("." + el_incor).css("background-color","rgba(224,16,75,0.6)");
 	}
 
 }

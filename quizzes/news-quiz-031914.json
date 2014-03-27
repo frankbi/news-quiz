@@ -3,26 +3,58 @@
 	"creationDate": "3/19/2014",
 	"creator": "Frank Bi",
 	"url": "http://newshour.pbs.org",
+	"short-url": "http://to.pbs.org/1dyu3sK",
+	"twitter-text": "",
 	"ques": [
 		{
-			"prompt": "Which is the state capital of Minnesota?",
-			"blurb": "",
-			"img": "",
-			"ans": "b",
-			"a": "Minneapolis",
-			"b": "Saint Paul",
-			"c": "Bloomington",
-			"d": "Duluth"
-		},
-		{
-			"prompt": "Who is the governor of California?",
-			"blurb": "",
+			"prompt": "Gay citizens face life prison sentences and their friends are now legally required to report them to the police, due to a strict new law signed on Monday where?",
+			"blurb": "North Carolina and North Korea, what's the difference here?",
 			"img": "",
 			"ans": "d",
-			"a": "Arnold Schwarzenegger",
-			"b": "Jesse Ventura",
-			"c": "Mike Lowry",
-			"d": "Jerry Brown"
+			"a": "Belarus",
+			"b": "North Korea",
+			"c": "North Carolina",
+			"d": "Uganda"
+		},
+		{
+			"prompt": "Jimmy Carter, the 39th President of the United States, is said to have seen what in 1969?",
+			"blurb": "This incident has its own wikipedia page. Check it out <a target='_blank' href=\"http://en.wikipedia.org/wiki/Jimmy_Carter_UFO_incident\">here</a>.",
+			"img": "",
+			"ans": "b",
+			"a": "A rabbit with wings",
+			"b": "A UFO",
+			"c": "An honest politican",
+			"d": "A walking and talking peanut"
+		},
+		{
+			"prompt": "Tupac was murdered in which U.S. city?",
+			"blurb": "If you believe in conspiracies, then you believe he's still alive. Otherwise, it was P. Diddy who killed Tupac.",
+			"img": "",
+			"ans": "b",
+			"a": "New York, New York",
+			"b": "Las Vegas, Nevada",
+			"c": "Bloomington, Minnesota",
+			"d": "Washington, D.C."
+		},
+		{
+			"prompt": "Which quote did Bill Cosby say?",
+			"blurb": "The dude eats free at Ben's Chili Bowl, guys. This is a big deal.",
+			"img": "",
+			"ans": "b",
+			"a": "\"Winning isn’t everything, but wanting to win is.\"",
+			"b": "\"Believe you can and you’re halfway there.\"",
+			"c": "\"The past is a ghost, the future a dream. All we ever have is now.\"",
+			"d": "\"The mind is everything. What you think you become.\""
+		},
+		{
+			"prompt": "Who are the original members of N.W.A.?",
+			"blurb": "The guys do not like the police. You knew that, right?",
+			"img": "",
+			"ans": "c",
+			"a": "Ice T, Alec Baldwin, Tracy Morgan, Cube Ice",
+			"b": "Tommy Lee Jones, Will Smith, Jeff Goldblum, Taco John",
+			"c": "Arabian Prince, DJ Yella, Dr. Dre, Eazy-E, Ice Cube",
+			"d": "Dr. Dres, Will Smith, Ice T, Busta Rhymes"
 		}
 	]
 }

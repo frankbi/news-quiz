@@ -2,33 +2,27 @@
     content:" ";
     display:table;
 }
-
 .cf:after {
     clear:both;
 }
-
 .cf {
     *zoom:1;
 }
-
 #quiz-container {
 	max-width:650px;
-	background-color:none;
-	font-family:Verdana, Geneva, sans-serif;
-	border:2px steelblue solid;
+	background-color:rgb(255,248,212);
+	font-family: 'Carrois Gothic SC', sans-serif;
 	border-radius:0px;
 	padding:30px;
 }
-
 	.ques-container {
 		width:90%;
 		height:100%;
 		margin:0px auto 0px auto;
 		background-color:none;
 	}
-
 		.prompt {
-			margin:8px 0px 5px 0px;
+			margin:3px 0px 5px 0px;
 			padding:0px;
 		}
 		.prompt p {
@@ -37,27 +31,41 @@
 			font-size:20px;
 			font-weight:bold;
 		}
-
 		.selection {
 			width:100%;
 			margin:8px 0 8px 0;
-			background-color:rgba(102,153,255,0.8);
+			background-color:rgba(245,221,100,1);
 			cursor:pointer;
 		}
 			.selection:hover {
-				background-color:rgba(102,153,255,0.5);
+				background-color:rgba(245,221,100,0.6);
 			}
 		.selection p {
 			margin:0px;
 			padding:5px 15px 5px 15px;
 			font-weight:bold;
 		}
-		
-
-
-		.correct {
-			background-color:green;
+		.blurb-container {
+			width:100%;
+			margin-bottom:5px;
 		}
-		.incorrect {
-			background-color:red;
+			.correct {
+				color:green;
+			}
+			.incorrect {
+				color:red;
+			}
+		.next-container {
+			width:100%;
+			
 		}
+			button.next-q {
+				width:30%;
+				height:30px;
+				cursor:pointer;
+				border:0;
+				background-color:rgba(245,221,100,1);
+			}
+				button.next-q:hover {
+					background-color:rgba(245,221,100,0.5);
+				}

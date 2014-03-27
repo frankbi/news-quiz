@@ -7,11 +7,14 @@
 	<body>
 		<script type="text/x-handlebars-template" id="question-template">
 				<div class="cf ques-container">
+					<div class="ques-num">Question {{ num_c }} of {{ num_q }}</div>
 					<div class="prompt"><p>{{ prompt }}</p></div>
 					<div class="selection a"><p>{{ a }}</p></div>
 					<div class="selection b"><p>{{ b }}</p></div>
 					<div class="selection c"><p>{{ c }}</p></div>
 					<div class="selection d"><p>{{ d }}</p></div>
+					<div class="blurb-container"></div>
+					<div class="next-container"></div>
 				</div>
 		</script>
 		<script type="text/x-handlebars-template" id="end-template">
