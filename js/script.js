@@ -159,21 +159,22 @@ var quiz = {
 
 	// Send score to PHP script, return with averages
 	sendScore: function() {
-
-		quiz.postScores({
-			"avg_score": "5"
-		});
-
-		/*
 		$.ajax({
 			url: "scores.php",
-			data: { "fake": "sdfasdf" },
-			type: "POST",
-			success: function(resp) {
-				quiz.postScores(resp);
+			data: { 
+				"score": total_score
+			},
+			cache: true,
+			success: function(avg) {
+
+				console.log(avg);
+
+				quiz.postScores({
+					"avg_score": avg
+				});
+
 			}
 		});
-		*/
 	},
 
 	// Returns responses from PHP script
