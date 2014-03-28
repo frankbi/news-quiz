@@ -20,7 +20,42 @@
 		</script>
 		<script type="text/x-handlebars-template" id="end-template">
 			<div class="cf ques-container">
-				<h1>NUMBER CORRECT: {{ score }}</h1>
+
+				<div class="cf response-container">
+					<h2>Not bad, play again anyways.</h2>
+				</div>
+
+				<div class="cf score-container">
+					<div class="cf score-slate">
+						<div class="your-score score-num">
+							<h2>{{ your_score }} / {{ ques }}</h2>
+						</div>
+						<div class="score-label">
+							<h2>Your Score</h2>
+						</div>
+					</div>
+					<div class="cf score-slate">
+						<div class="avg-score score-num">
+							<h2>{{ avg_score }} / {{ ques }}</h2>
+						</div>
+						<div class="score-label">
+							<h2>Average Score</h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="cf share-container">
+					<div class="share-border" style="margin-right:5px;"></div>
+					<p>Share On</p>
+					<img class="share" src="img/share/facebook.png">
+					<img class="share" src="img/share/twitter.png">
+					<div class="share-border" style="margin-left:5px;"></div>
+				</div>
+
+				<div class="cf play-again-container">
+					<button onclick='location.reload()'>Play Again</button>
+				<div>
+
 			</div>
 		</script>
 		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>

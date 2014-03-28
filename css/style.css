@@ -8,12 +8,17 @@
 .cf {
     *zoom:1;
 }
+html, button {
+	font-family: 'Carrois Gothic SC', sans-serif;
+}
+img {
+	margin-top:10px;
+}
 #quiz-container {
 	max-width:650px;
 	background-color:rgb(255,248,212);
-	font-family: 'Carrois Gothic SC', sans-serif;
 	border-radius:0px;
-	padding:30px;
+	padding:20px;
 }
 	.ques-container {
 		width:90%;
@@ -72,3 +77,89 @@
 				button.next-q:hover {
 					background-color:rgba(245,221,100,0.5);
 				}
+
+.response-container {
+	width:100%;
+	margin:10px;
+	text-align:center;
+}
+	.response-container h2 {
+		margin:0px;
+		padding:0px;
+		font-weight:bolder;
+		font-size:30px;
+		color:green;
+	}
+
+.score-container {
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+}
+	.score-slate {
+		width:45%;
+		min-height:20px;
+		margin:5px;
+		display:inline-block;
+		background-color:white;	
+	}
+		.score-num {
+			width:100%;
+		}
+			.score-num h2 {
+				margin:0px;
+				padding:0px;
+				font-size:50px;
+			}
+		.score-label {
+			width:100%;
+			background-color:lightgray;
+		}
+			.score-label h2 {
+				margin:0px;
+				padding:0px;
+			}
+
+.share-container {
+	width:100%;
+	text-align:center;
+}
+	.share-container p {
+		margin:2px 0;
+		display:inline-table;
+		font-size:20px;
+	}
+
+.share-border {
+	background-color:black;
+	display:inline-table;
+	height:3px;
+	width:23%;
+}
+
+.share {
+	cursor:pointer;
+}
+	img.share {
+		width:25px;
+		margin:0px 3px 0px 3px;
+		padding:0px;
+		vertical-align:middle;
+	}
+
+.play-again-container {
+	width:100%;
+	margin-top:10px;
+	text-align:center;
+}
+	.play-again-container button {
+		width:40%;
+		height:40px;
+		cursor:pointer;
+		border:0;
+		font-size:25px;
+		background-color:rgba(245,221,100,1);
+	}
+		.play-again-container:hover button {
+			background-color:rgba(245,221,100,0.5);
+		}

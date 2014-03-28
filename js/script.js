@@ -62,14 +62,13 @@ var quiz = {
 
 	},
 
-	// DA LOOOOOP
+	// LOOP DEE DOOP
 	// Show one question at a time
 	displayQuestion: function() {
 
 		container = $("#quiz-container");
 
 		var ques_template = Handlebars.compile($("#question-template").html());
-		var end_template = Handlebars.compile($("#end-template").html());
 
 		if (quiz.counter < num_questions) {
 			if (quiz.state != 1) {
@@ -82,9 +81,9 @@ var quiz = {
 				container.html(ques_template(quiz.questions[quiz.counter]));
 			}
 		} else {
-				container.html(end_template({
-					"score": total_score
-				}));
+
+			// Ajax to PHP, and return scores
+			quiz.sendScore();
 		}
 
 		// Attached event handler
@@ -153,6 +152,39 @@ var quiz = {
 	incorrect: function(el_cor, el_incor) {
 		$("." + el_cor).css("background-color","rgba(14,204,52,0.6)");
 		$("." + el_incor).css("background-color","rgba(224,16,75,0.6)");
+	},
+
+	// Send score to PHP script, return with averages
+	sendScore: function() {
+
+		quiz.postScores({
+			"avg_score": "5"
+		});
+
+		/*
+		$.ajax({
+			url: "scores.php",
+			data: { "fake": "sdfasdf" },
+			type: "POST",
+			success: function(resp) {
+				quiz.postScores(resp);
+			}
+		});
+		*/
+	},
+
+	// Returns responses from PHP script
+	postScores: function(resp) {
+		
+		var end_template = Handlebars.compile($("#end-template").html());
+
+		container.html(end_template({
+			"your_score": total_score,
+			"avg_score": resp.avg_score,
+			"ques": num_questions
+		}));
+
+
 	}
 
 }
