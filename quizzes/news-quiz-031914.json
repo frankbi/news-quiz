@@ -1,10 +1,13 @@
 {
-	"quizName": "Weekly News Quiz",
-	"creationDate": "3/19/2014",
-	"creator": "Frank Bi",
-	"url": "http://newshour.pbs.org",
-	"short-url": "http://to.pbs.org/1dyu3sK",
-	"twitter-text": "",
+	"info": {
+		"quizName": "Weekly News Quiz",
+		"creationDate": "3/19/2014",
+		"creator": "Frank Bi",
+		"url": "http://newshour.pbs.org",
+		"shortUrl": "http://to.pbs.org/1dyu3sK",
+		"twitterTextPart1": "I got ",
+		"twitterTextPart2": "%25 on this week's @NewsHour news quiz! Take the news quiz yourself!"
+	},
 	"ques": [
 		{
 			"prompt": "Gay citizens face life prison sentences and their friends are now legally required to report them to the police, due to a strict new law signed on Monday where?",

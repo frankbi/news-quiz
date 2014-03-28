@@ -37,6 +37,9 @@ var quiz = {
 	// Stores questions and choices in local array, questions[]
 	processQuestions: function(obj) {
 
+		// Pertinent quiz information
+		window.quiz_info = obj.info;
+
 		// Set to global window how many questions are in file
 		window.num_questions = obj.ques.length;
 
@@ -184,7 +187,70 @@ var quiz = {
 			"ques": num_questions
 		}));
 
+		quiz.shareButtons();
+		quiz.generateResponse();
+	},
 
+	// Returns a response based on score, pulls from JSON
+	generateResponse: function() {
+
+		var interval = num_questions / 3;
+		var intv1 = interval;
+		var intv2 = interval*2;
+		var intv3 = interval*3;
+		var text;
+
+		if (total_score < intv1) {	
+			var ran_num = Math.floor(Math.random()*responses.bad.length);
+			text = "<h2>" + responses.bad[ran_num].d + "</h2>";
+		} else if (total_score < intv2 && total_score > intv1) {
+			var ran_num = Math.floor(Math.random()*responses.fair.length);
+			text = "<h2>" + responses.fair[ran_num].d + "</h2>";
+		} else if (total_score < intv3 && total_score > intv2) {
+			var ran_num = Math.floor(Math.random()*responses.good.length);
+			text = "<h2>" + responses.good[ran_num].d + "</h2>";
+		} else if (total_score == num_questions) {
+			var ran_num = Math.floor(Math.random()*responses.perfect.length);
+			text = "<h2>" + responses.perfect[ran_num].d + "</h2>";
+		}
+
+		$(".response-container").html(text);
+
+	},
+
+	// Triggered when share button icons are clicked
+	shareButtons: function() {
+		$(".share").click(function(e) {
+
+			var type = e.target.className;
+			var short_url = quiz_info.shortUrl;
+			var twitter_text = quiz_info.twitterText;
+
+			var width  = 575,
+				height = 400,
+				left   = ($(window).width()  - width)  / 2,
+				top    = ($(window).height() - height) / 2,
+				opts   = 'status=1' +
+					 ',width='  + width  +
+					 ',height=' + height +
+					 ',top='    + top    +
+					 ',left='   + left;
+
+			// Twitter window activate
+			if (type.search('twitter') != -1) {
+
+				// Calculate score as percent for tweet
+				var perc_score = Math.round((total_score / num_questions)*100);
+				var text = quiz_info.twitterTextPart1 + perc_score + quiz_info.twitterTextPart2;
+				window.open("https://www.twitter.com/share?text=" + text + "&url=" + short_url, '_blank', opts);
+			}
+
+			// Facebook window activate
+			if (type.search('facebook') != -1) {
+				window.open("https://www.facebook.com/sharer/sharer.php?u=" + short_url, '_blank', opts);
+			}
+
+		});
 	}
 
 }
