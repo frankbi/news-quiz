@@ -93,6 +93,10 @@ var quiz = {
 		// Also checks for correctness
 		quiz.attachClick();
 
+		// For iframe uses
+		// Keep it at bottom so it doesn't break anything
+		window.parent.resizeIframe();
+
 	},
 
 	// Event handler
@@ -161,16 +165,15 @@ var quiz = {
 	sendScore: function() {
 		$.ajax({
 			url: "scores.php",
-			data: { 
+			type: "POST",
+			data: ({
 				"score": total_score
-			},
+			}),
 			cache: true,
 			success: function(avg) {
-
 				quiz.postScores({
-					"avg_score": Math.floor(avg)
+					"avg_score": Math.ceil(avg)
 				});
-
 			}
 		});
 	},
