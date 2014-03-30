@@ -17,7 +17,107 @@
 			"d":"76",
 			"ans":"d",
 			"blurb":"The youngest person to make a claim for long-term care insurance was 27 years old. The oldest was 103 years old, according to data from Genworth.",
+			"img":"img/78770400.jpg"
+		  },
+		  {
+			"prompt":"How many Americans have long-term care insurance?",
+			"a":"5 million",
+			"b":"1 million",
+			"c":"8 million",
+			"d":"20 million",
+			"ans":"c",
+			"blurb":"In 2012, 8.1 million Americans had long-term care insurance according to the American Association for Long-Term Care Insurance.",
 			"img":""
+		  },
+		  {
+			"prompt":"Which group's admissions to nursing homes have increased by 54% in the United States?",
+			"a":"Hispanic",
+			"b":"White",
+			"c":"Hispanic and Asian",
+			"d":"Asian",
+			"ans":"c",
+			"blurb":"Between 1999 and 2008, both Hispanic and Asian admissions to nursing homes increased by 54%, while white admissions decreased  10% and black admissions increased 11% according to the Administration on Aging at Brown University. ",
+			"img":""
+		  },
+		  {
+			"prompt":"What percent of individuals 44 and younger apply for long-term care insurance?",
+			"a":"4%",
+			"b":"10%",
+			"c":"18%",
+			"d":"25%",
+			"ans":"a",
+			"blurb":"Only 0.8% of people under 35 apply for long-term care insurance, while 3.2% of individuals between the age of 35-44 apply.",
+			"img":""
+		  },
+		  {
+			"prompt":"What costs more?",
+			"a":"A year at Harvard",
+			"b":"A year at a nursing home",
+			"c":"A year in prison",
+			"d":"A year of infant care in New York City",
+			"ans":"b",
+			"blurb":"Spending a year in a private room in a nursing home will set you back about $84,000 according to Genworth Financial. A year at Harvard is $56,000, an average year in prison is $31,000 and a year of infant care in New York City is around $14,000. ",
+			"img":"img/LTC.jpg"
+		  },
+		  {
+			"prompt":"Which state had the lowest unemployment rate for seniors in 2012?",
+			"a":"North Dakota",
+			"b":"Nevada",
+			"c":"Massachusetts",
+			"d":"Ohio",
+			"ans":"a",
+			"blurb":"North Dakota had an unemployment rate of 2.2%, while Nevada had the highest rate at 9.8%. Massachusetts came in at 6% and Ohio at 5.1%",
+			"img":""
+		  },
+		  {
+			"prompt":"Which state has the highest income tax rate on pensions?",
+			"a":"Oregon",
+			"b":"Minnesota",
+			"c":"Virginia",
+			"d":"Tennessee",
+			"ans":"b",
+			"blurb":"Minnesota has the highest pension tax rate, at 7.9%. Tennessee is one of nine states that has a 0% income tax rate. Oregon has 7.7% and Virginia has 5.3%.",
+			"img":""
+		  },
+		  {
+			"prompt":"Which state has the highest average retirement account balance? (not including pensions)",
+			"a":"Vermont",
+			"b":"New Jersey",
+			"c":"Wisconsin",
+			"d":"Connecticut",
+			"ans":"c",
+			"blurb":"Wisconsin has the highest average account balance at nearly $46,000, while Vermont has saved the least and averages just under $20,000. New Jersey has saved around $28,000 and Connecticut has saved an average of $24,000. ",
+			"img":"img/money_sign_slideshow.jpg"
+		  },
+		  {
+			"prompt":"How many Americans who need long-term care get help from family or friends?",
+			"a":"1 in 6",
+			"b":"2 in 3",
+			"c":"1 in 100",
+			"d":"9 in 10",
+			"ans":"d",
+			"blurb":"Nearly 9 in 10 Americans who need some form of long-term care get that assistance from family members or friends who volunteer their time. ",
+			"img":""
+		  },
+		  {
+			"prompt":"What is the value of all of that informal long-term care given by friends and family?",
+			"a":"$100 million",
+			"b":"$234 billion",
+			"c":"$1.3 million",
+			"d":"$2.5 billion",
+			"ans":"b",
+			"blurb":"In 2011 the Congressional Budget Office estimated the value provided by informal LTC caregivers doing home-aide type services was a whopping $234 billion. ",
+			"img":""
+		  },
+		  {
+			"prompt":"More than half of Americans underestimate the cost of what?",
+			"a":"Assisted living facilities",
+			"b":"Part-time aides",
+			"c":"Most people have a good understanding of costs",
+			"d":"Nursing homes",
+			"ans":"d",
+			"blurb":"58% of people underestimate the costs of a nursing home while 52% overestimate the cost of a part-time home healthcare aide. About a third of people either underestimate, correctly estimate and overestimate the cost of an assisted living facility according to an AP/NORC survey.",
+			"img":"img/LTC.jpg"
 		  }
 	]
 }
