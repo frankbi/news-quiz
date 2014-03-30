@@ -3,8 +3,8 @@
 		"quizName": "Long Term Care Quiz",
 		"creationDate": "3/19/2014",
 		"creator": "Frank Bi",
-		"url": "http://newshour.pbs.org",
-		"shortUrl": "http://to.pbs.org/1dyu3sK",
+		"url": "http://www.pbs.org/newshour/rundown/quiz-much-know-long-term-care/",
+		"shortUrl": "http://to.pbs.org/Qw9pPS",
 		"twitterTextPart1": "I got ",
 		"twitterTextPart2": "%25 on PBS @NewsHour's long term care quiz! Can you beat my score?"
 	},
@@ -14,7 +14,7 @@
 			"a":"34",
 			"b":"56",
 			"c":"68",
-			"d":"76",
+			"d":"27",
 			"ans":"d",
 			"blurb":"The youngest person to make a claim for long-term care insurance was 27 years old. The oldest was 103 years old, according to data from Genworth.",
 			"img":""
@@ -41,7 +41,7 @@
 		  },
 		  {
 			"prompt":"What percent of individuals 44 and younger apply for long-term care insurance?",
-			"a":"4%",
+			"a":"Less than 1%",
 			"b":"10%",
 			"c":"18%",
 			"d":"25%",
