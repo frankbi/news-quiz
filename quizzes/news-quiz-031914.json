@@ -17,7 +17,7 @@
 			"d":"76",
 			"ans":"d",
 			"blurb":"The youngest person to make a claim for long-term care insurance was 27 years old. The oldest was 103 years old, according to data from Genworth.",
-			"img":"img/78770400.jpg"
+			"img":""
 		  },
 		  {
 			"prompt":"How many Americans have long-term care insurance?",
@@ -57,7 +57,7 @@
 			"d":"A year of infant care in New York City",
 			"ans":"b",
 			"blurb":"Spending a year in a private room in a nursing home will set you back about $84,000 according to Genworth Financial. A year at Harvard is $56,000, an average year in prison is $31,000 and a year of infant care in New York City is around $14,000. ",
-			"img":"img/LTC.jpg"
+			"img":""
 		  },
 		  {
 			"prompt":"Which state had the lowest unemployment rate for seniors in 2012?",
@@ -87,7 +87,7 @@
 			"d":"Connecticut",
 			"ans":"c",
 			"blurb":"Wisconsin has the highest average account balance at nearly $46,000, while Vermont has saved the least and averages just under $20,000. New Jersey has saved around $28,000 and Connecticut has saved an average of $24,000. ",
-			"img":"img/money_sign_slideshow.jpg"
+			"img":""
 		  },
 		  {
 			"prompt":"How many Americans who need long-term care get help from family or friends?",
@@ -117,7 +117,7 @@
 			"d":"Nursing homes",
 			"ans":"d",
 			"blurb":"58% of people underestimate the costs of a nursing home while 52% overestimate the cost of a part-time home healthcare aide. About a third of people either underestimate, correctly estimate and overestimate the cost of an assisted living facility according to an AP/NORC survey.",
-			"img":"img/LTC.jpg"
+			"img":""
 		  }
 	]
 }
