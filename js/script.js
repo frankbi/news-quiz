@@ -167,10 +167,8 @@ var quiz = {
 			cache: true,
 			success: function(avg) {
 
-				console.log(avg);
-
 				quiz.postScores({
-					"avg_score": avg
+					"avg_score": Math.floor(avg)
 				});
 
 			}
