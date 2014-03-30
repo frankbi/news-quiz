@@ -93,10 +93,6 @@ var quiz = {
 		// Also checks for correctness
 		quiz.attachClick();
 
-		// For iframe uses
-		// Keep it at bottom so it doesn't break anything
-		window.parent.resizeIframe();
-
 	},
 
 	// Event handler
@@ -125,6 +121,7 @@ var quiz = {
 			quiz.nextQuestion();
 			quiz.state = 1;
 		}
+
 	},
 
 	// Called after checkAnswer() to include blurb and button to next question
