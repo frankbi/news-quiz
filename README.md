@@ -1,7 +1,11 @@
 NewsHour-Quiz
 =========
 
-# Making the quiz
+Turn a JSON into a quiz in minutes.
+
+Created by [Frank Bi](http://twitter.com/frankiebi) for [PBS NewsHour](http://newshour.pbs.org) 
+
+## Making the quiz
 
 	<script src="js/head.min.js"></script>
 	<script>
@@ -16,5 +20,3 @@ NewsHour-Quiz
 		);
 	</script>
 	<div id="quiz-container" class="cf"></div>
-
-[By Frank Bi](http://twitter.com/frankiebi)
