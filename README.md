@@ -1,7 +1,7 @@
-News-Quiz
+NewsHour-Quiz
 =========
 
-### Making a quiz
+# Making the quiz
 
 	<script src="js/head.min.js"></script>
 	<script>
@@ -11,7 +11,7 @@ News-Quiz
 			"js/templates.js",
 			"js/script.js",
 			"css/style.css", function() {
-				quiz.init("quizzes/news-quiz-031914.json");
+				quiz.init("YOUR-QUIZ.json");
 			}
 		);
 	</script>
