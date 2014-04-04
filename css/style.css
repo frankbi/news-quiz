@@ -101,6 +101,7 @@
 	}
 		.score-num {
 			min-height:45px;
+			padding-top:5px;
 			width:100%;
 		}
 			.score-num h2 {
