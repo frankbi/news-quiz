@@ -94,12 +94,13 @@
 }
 	.score-slate {
 		width:45%;
-		min-height:40px;
+		min-height:20px;
 		margin:5px;
 		display:inline-block;
 		background-color:white;	
 	}
 		.score-num {
+			min-height:35px;
 			width:100%;
 		}
 			.score-num h2 {
