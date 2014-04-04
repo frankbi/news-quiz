@@ -11,17 +11,8 @@ var quiz = {
 
 	// Init function, called from embed page
 	init: function(json) {
-		// quiz.initStyleSheet();
 		quiz.initFont();
 		quiz.getQuestions(json);
-	},
-
-	// init stylesheet
-	initStyleSheet: function() {
-		$("<link>").attr("rel","stylesheet")
-			.attr("type","text/css")
-			.attr("href","css/style.css")
-			.appendTo("head");
 	},
 
 	// Load font from Google, matched in CSS
