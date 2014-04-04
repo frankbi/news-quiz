@@ -14,7 +14,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   if (helper = helpers.ques) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.ques); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</h2>\n			</div>\n			<div class=\"score-label\">\n				<h2>Your Score</h2>\n			</div>\n		</div>\n	</div>\n	<div class=\"cf share-container\">\n		<div class=\"share-border\" style=\"margin-right:5px;\"></div>\n		<p>Share On</p>\n		<img class=\"share facebook-share\" src=\"img/share/facebook.png\">\n		<img class=\"share twitter-share\" src=\"img/share/twitter.png\">\n		<div class=\"share-border\" style=\"margin-left:5px;\"></div>\n	</div>\n	<div class=\"cf play-again-container\">\n		<button onclick='location.reload()'>Play Again</button>\n	<div>\n</div>\n";
+    + "</h2>\n			</div>\n			<div class=\"score-label\">\n				<h2>Your Score</h2>\n			</div>\n		</div>\n	</div>\n	<div class=\"cf share-container\">\n		<div class=\"share-border\" style=\"margin-right:5px;\"></div>\n		<p>Share On</p>\n		<img class=\"share facebook-share\" src=\"http://www-tc.pbs.org/newshour/data/test-news-quiz/news-quiz/img/share/facebook.png\">\n		<img class=\"share twitter-share\" src=\"http://www-tc.pbs.org/newshour/data/test-news-quiz/news-quiz/img/share/facebook.png\">\n		<div class=\"share-border\" style=\"margin-left:5px;\"></div>\n	</div>\n	<div class=\"cf play-again-container\">\n		<button onclick='location.reload()'>Play Again</button>\n	<div>\n</div>\n";
   return buffer;
   });
 })();(function() {
