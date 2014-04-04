@@ -101,7 +101,7 @@
 	}
 		.score-num {
 			min-height:45px;
-			padding-top:5px;
+			padding-top:8px;
 			width:100%;
 		}
 			.score-num h2 {
@@ -130,7 +130,7 @@
 	background-color:black;
 	display:inline-table;
 	height:3px;
-	width:23%;
+	width:18%;
 }
 
 .score-share {
