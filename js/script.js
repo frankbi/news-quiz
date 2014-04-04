@@ -11,8 +11,17 @@ var quiz = {
 
 	// Init function, called from embed page
 	init: function(json) {
+		quiz.initStyleSheet();
 		quiz.initFont();
 		quiz.getQuestions(json);
+	},
+
+	// init stylesheet
+	initStyleSheet: function() {
+		$("<link>").attr("rel","stylesheet")
+			.attr("type","text/css")
+			.attr("href","css/style.css")
+			.appendTo("head");
 	},
 
 	// Load font from Google, matched in CSS
@@ -71,8 +80,6 @@ var quiz = {
 
 		container = $("#quiz-container");
 
-		var ques_template = Handlebars.compile($("#question-template").html());
-
 		if (quiz.counter < num_questions) {
 			if (quiz.state != 1) {
 
@@ -81,12 +88,15 @@ var quiz = {
 
 				// Passes the current numbered question to the template
 				quiz.questions[quiz.counter].num_c = quiz.counter + 1;
-				container.html(ques_template(quiz.questions[quiz.counter]));
+
+				var num = quiz.questions[quiz.counter];
+
+				container.html(Handlebars.templates['question-prompt'](num));
+
 			}
 		} else {
 
-			// Ajax to PHP, and return scores
-			quiz.sendScore();
+			quiz.postScores();
 		}
 
 		// Attached event handler
@@ -158,31 +168,11 @@ var quiz = {
 		$("." + el_incor).css("background-color","rgba(224,16,75,0.6)");
 	},
 
-	// Send score to PHP script, return with averages
-	sendScore: function() {
-		$.ajax({
-			url: "scores.php",
-			type: "POST",
-			data: ({
-				"score": total_score
-			}),
-			cache: true,
-			success: function(avg) {
-				quiz.postScores({
-					"avg_score": Math.ceil(avg)
-				});
-			}
-		});
-	},
+	//
+	postScores: function() {
 
-	// Returns responses from PHP script
-	postScores: function(resp) {
-		
-		var end_template = Handlebars.compile($("#end-template").html());
-
-		container.html(end_template({
+		container.html(Handlebars.templates['end-screen']({
 			"your_score": total_score,
-			"avg_score": resp.avg_score,
 			"ques": num_questions
 		}));
 
@@ -241,7 +231,8 @@ var quiz = {
 				// Calculate score as percent for tweet
 				var perc_score = Math.round((total_score / num_questions)*100);
 				var text = quiz_info.twitterTextPart1 + perc_score + quiz_info.twitterTextPart2;
-				window.open("https://www.twitter.com/share?text=" + text + "&url=" + short_url, '_blank', opts);
+				window.open("https://www.twitter.com/share?text=" + text + "&url=" + short_url, '_blank', op
+ts);
 			}
 
 			// Facebook window activate

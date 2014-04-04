@@ -2,65 +2,12 @@
 <html>
 	<head>
 		<title></title>
-		<link type="text/css" rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		<script type="text/x-handlebars-template" id="question-template">
-				<div class="cf ques-container">
-					<div class="ques-num">Question {{ num_c }} of {{ num_q }}</div>
-					<img class="prompt-photo" src="{{ img }}">
-					<div class="prompt"><p>{{ prompt }}</p></div>
-					<div class="selection a"><p>{{ a }}</p></div>
-					<div class="selection b"><p>{{ b }}</p></div>
-					<div class="selection c"><p>{{ c }}</p></div>
-					<div class="selection d"><p>{{ d }}</p></div>
-					<div class="blurb-container"></div>
-					<div class="next-container"></div>
-				</div>
-		</script>
-		<script type="text/x-handlebars-template" id="end-template">
-			<div class="cf ques-container">
-
-				<div class="cf response-container">
-					<h2>Not bad, play again anyways.</h2>
-				</div>
-
-				<div class="cf score-container">
-					<div class="cf score-slate">
-						<div class="your-score score-num">
-							<h2>{{ your_score }} / {{ ques }}</h2>
-						</div>
-						<div class="score-label">
-							<h2>Your Score</h2>
-						</div>
-					</div>
-					<div class="cf score-slate">
-						<div class="avg-score score-num">
-							<h2>{{ avg_score }} / {{ ques }}</h2>
-						</div>
-						<div class="score-label">
-							<h2>Average Score</h2>
-						</div>
-					</div>
-				</div>
-
-				<div class="cf share-container">
-					<div class="share-border" style="margin-right:5px;"></div>
-					<p>Share On</p>
-					<img class="share facebook-share" src="img/share/facebook.png">
-					<img class="share twitter-share" src="img/share/twitter.png">
-					<div class="share-border" style="margin-left:5px;"></div>
-				</div>
-
-				<div class="cf play-again-container">
-					<button onclick='location.reload()'>Play Again</button>
-				<div>
-
-			</div>
-		</script>
-		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>	
 		<script type="text/javascript" src="js/handlebars-v1.3.0.js"></script>
-		<script type="text/javascript" src="js/responses.js"></script>		
+		<script type="text/javascript" src="js/responses.js"></script>
+		<script type="text/javascript" src="js/templates.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function() {
