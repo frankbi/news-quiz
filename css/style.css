@@ -136,6 +136,7 @@
 }
 	img.score-share {
 		width:25px;
+		display:inline;
 		margin:0px 3px 5px 3px;
 		padding:0px;
 		vertical-align:middle;
