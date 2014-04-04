@@ -200,7 +200,7 @@ var quiz = {
 
 	// Triggered when share button icons are clicked
 	shareButtons: function() {
-		$(".share").click(function(e) {
+		$(".score-share").click(function(e) {
 
 			var type = e.target.className;
 			var short_url = quiz_info.shortUrl;
