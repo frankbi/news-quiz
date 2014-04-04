@@ -231,8 +231,7 @@ var quiz = {
 				// Calculate score as percent for tweet
 				var perc_score = Math.round((total_score / num_questions)*100);
 				var text = quiz_info.twitterTextPart1 + perc_score + quiz_info.twitterTextPart2;
-				window.open("https://www.twitter.com/share?text=" + text + "&url=" + short_url, '_blank', op
-ts);
+				window.open("https://www.twitter.com/share?text=" + text + "&url=" + short_url, '_blank', opts);
 			}
 
 			// Facebook window activate
