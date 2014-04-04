@@ -62,7 +62,6 @@ var quiz = {
 
 		// Show one question
 		quiz.displayQuestion();
-
 	},
 
 	// LOOP DEE DOOP
@@ -72,6 +71,7 @@ var quiz = {
 		container = $("#quiz-container");
 
 		if (quiz.counter < num_questions) {
+
 			if (quiz.state != 1) {
 
 				// Passes the total number of questions to the template
@@ -80,20 +80,19 @@ var quiz = {
 				// Passes the current numbered question to the template
 				quiz.questions[quiz.counter].num_c = quiz.counter + 1;
 
-				var num = quiz.questions[quiz.counter];
-
-				container.html(Handlebars.templates['question-prompt'](num));
-
+				// Precompiled template
+				container.html(Handlebars.templates['question-prompt'](quiz.questions[quiz.counter]));
 			}
+
 		} else {
 
-			quiz.postScores();
+			quiz.completeQuiz();
+
 		}
 
 		// Attached event handler
 		// Also checks for correctness
 		quiz.attachClick();
-
 	},
 
 	// Event handler
@@ -159,8 +158,8 @@ var quiz = {
 		$("." + el_incor).css("background-color","rgba(224,16,75,0.6)");
 	},
 
-	//
-	postScores: function() {
+	// Quiz has been completed, process scores
+	completeQuiz: function() {
 
 		container.html(Handlebars.templates['end-screen']({
 			"your_score": total_score,
@@ -203,9 +202,12 @@ var quiz = {
 		$(".score-share").click(function(e) {
 
 			var type = e.target.className;
+
+			// Data from JSON
 			var short_url = quiz_info.shortUrl;
 			var twitter_text = quiz_info.twitterText;
 
+			// Pop-up window info
 			var width  = 575,
 				height = 400,
 				left   = ($(window).width()  - width)  / 2,
@@ -217,7 +219,7 @@ var quiz = {
 					 ',left='   + left;
 
 			// Twitter window activate
-			if (type.search('twitter') != -1) {
+			if (type.search("twitter") != -1) {
 
 				// Calculate score as percent for tweet
 				var perc_score = Math.round((total_score / num_questions)*100);
@@ -226,7 +228,7 @@ var quiz = {
 			}
 
 			// Facebook window activate
-			if (type.search('facebook') != -1) {
+			if (type.search("facebook") != -1) {
 				window.open("https://www.facebook.com/sharer/sharer.php?u=" + short_url, '_blank', opts);
 			}
 
