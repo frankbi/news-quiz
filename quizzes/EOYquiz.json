@@ -1,0 +1,143 @@
+{
+	"info": {
+		"quizName": "End of school news quiz",
+		"creationDate": "5/06/2014",
+		"creator": "Allison McCartney",
+		"url": "http://www.pbs.org/newshour/extra/2014/05/news-quiz-how-much-do-you-know-about-this-school-years-biggest-stories",
+		"shortUrl": "http://to.pbs.org/1jaLh11",
+		"twitterTextPart1": "I got ",
+		"twitterTextPart2": "%25 on PBS @NewsHour's end of school news quiz! Can you beat my score?"
+	},
+	"ques": [
+		{
+			"prompt":"Which of the following historic anti-discrimination laws, signed by President Lyndon B. Johnson during the 1960s, did the Supreme Court declare partly unconstitutional in June 2013?",
+			"a":"The Voting Rights Act",
+			"b":"The Civil Rights Act",
+			"c":"The Immigration and Nationality Act",
+			"d":"The Equal Rights Amendment",
+			"ans":"a",
+			"blurb":"In June 2013 <a href=\"http://www.pbs.org/newshour/extra/2013/06/supreme-court-strikes-down-section-4-of-the-voting-rights-act/\" target=\"_blank\">the Supreme Court issued a ruling<\/a> that Section 4 of the Voting Rights Act of 1965, which required nine southern states to gain approval from the Justice Department before making changes to their state voting laws, is no longer constitutional \"in light of current conditions.\" ",
+			"img":"http://www.pbs.org/newshour/extra/wp-content/uploads/sites/2/2013/11/SCOTUS-VRA.jpg"
+		  },
+		  {
+			"prompt":"In March, Russia annexed the diverse Crimean peninsula, which is considered part of which Eastern European country?",
+			"a":"Latvia",
+			"b":"Slovakia",
+			"c":"Romania",
+			"d":"Ukraine",
+			"ans":"d",
+			"blurb":"Russia annexed Crimea, which is considered part of Ukraine, <a href=\"http://www.pbs.org/newshour/bb/margaret-warner-reports-crimea-close-vote/\" target=\"_blank\">after ethnic Russians in Crimea voted to secede from Ukraine.<\/a>",
+			"img":"http://www.pbs.org/newshour/wp-content/uploads/2014/04/russia_ukraine_flags1.jpg"
+		  },
+		  {
+			"prompt":"This year's Olympic Games were hosted by which of the following countries, which is considered a historical rival of the United States?",
+			"a":"Brazil",
+			"b":"Russia",
+			"c":"China",
+			"d":"England",
+			"ans":"b",
+			"blurb":"The 2014 Winter Olympic Games were held <a href=\"http://www.pbs.org/newshour/extra/2014/01/russia-and-the-olympics-a-brief-background/\" target=\"_blank\">in the Black Sea resort town of Sochi, Russia.<\/a>",
+			"img":"http://www.pbs.org/newshour/extra/wp-content/uploads/sites/2/2014/01/russiagraphic.png"
+		  },
+		  {
+			"prompt":"The culture of bullying in the National Football League became news when Miami Dolphins player Jonathan Martin accused which of his teammates of tormenting him?",
+			"a":"Richie Incognito",
+			"b":"Richard Sherman",
+			"c":"Jason Witten",
+			"d":"Colin Kaepernick",
+			"ans":"a",
+			"blurb":"Richie Incognito <a href=\"http://www.pbs.org/newshour/extra/2013/11/nfl-bullying/\" target=\"_blank\">was suspended from the NFL for three months<\/a> while investigators looked into the allegations of bullying.",
+			"img":"http://www.pbs.org/newshour/extra/wp-content/uploads/sites/2/2013/11/Incognito.jpg"
+		  },
+		  {
+			"prompt":"Little information is available on the fate of Malaysian Airlines flight 370, a passenger plane that disappeared while traveling from Kuala Lumpur to Beijing, but experts believe that it crashed in __________.",
+			"a":"Central Asia",
+			"b":"the Pacific Ocean",
+			"c":"the Indian Ocean",
+			"d":"China",
+			"ans":"c",
+			"blurb":"While wreckage of the plane has still not been found, flight MH370 is believed to have crashed in deep waters in the South Indian Ocean.",
+			"img":"http://newshour-tc.pbs.org/newshour/wp-content/uploads/2014/03/malaysiasearch.jpeg"
+		  },
+		  {
+			"prompt":"\"Food stamps\" is the informal name for the federal assistance program that helps families in need purchase food items. What is the formal acronym for this program?",
+			"a":"TANF",
+			"b":"FDA",
+			"c":"WIC",
+			"d":"SNAP",
+			"ans":"d",
+			"blurb":"SNAP, or the Supplemental Nutrition Assistance Program, is the formal name for the federal food stamps program. <a href=\"http://www.pbs.org/newshour/bb/nation-july-dec13-food_11-25/\" target=\"_blank\">Food stamp benefits were cut for families in November as part of a new budget deal.<\/a>",
+			"img":"http://www-tc.pbs.org/prod-media/newshour/photos/2013/11/25/foodstamps.jpg"
+		  },
+		  {
+			"prompt":"Nelson Mandela was a hero in his home country of South Africa for fighting the racist system of apartheid and a treasured human rights advocate around the world. During his struggle for equality his was imprisoned for ______ years.",
+			"a":"6",
+			"b":"12",
+			"c":"22",
+			"d":"27",
+			"ans":"d",
+			"blurb":"In 1962, the South African regime <a href=\"http://www.pbs.org/newshour/extra/daily_videos/remembering-nelson-mandelas-long-walk-to-freedom/\" target=\"_blank\">threw Mandela and his political allies in prison<\/a> on charges of sabotage and fomenting violent revolution. He was released 27 years later, in 1990, at the age of 71.",
+			"img":"http://www.pbs.org/newshour/wp-content/uploads/2014/04/mandelacrop_slideshow.jpg"
+		  },
+		  {
+			"prompt":"In August 2013 food workers went on strike to protest low wages and to demand an increase that, they say, will help to lift them out of poverty. The current minimum wage is ____ and they want it increased to ______.",
+			"a":"$7.25 | $15.00",
+			"b":"$8.00 | $11.00",
+			"c":"$6.75 | $10.10",
+			"d":"$5.50 | $12.00",
+			"ans":"a",
+			"blurb":"Strikers demanded that the federal minimum wage, the number that the government has decided is the lowest hourly wage allowed, be raise from $7.25 an hour to $15 an hour. The Obama administration has pushed for a minimum wage raise to $10.10 an hour.",
+			"img":"http://www.pbs.org/newshour/extra/wp-content/uploads/sites/2/2013/11/WageStrike-1024x682.jpg"
+		  },
+ 		  {
+			"prompt":"With which Middle Eastern country did the U.S. strike a historic nuclear deal in November?",
+			"a":"Iraq",
+			"b":"Syria",
+			"c":"Israel",
+			"d":"Iran",
+			"ans":"d",
+			"blurb":"In November, the U.S. and Iran reached a historic agreement aimed at preventing Iran from obtaining a nuclear bomb. The deal halts some of Iran's uranium enrichment program, and neutralizes the country's stockpile of uranium that is near nuclear bomb capability.",
+			"img":"http://www.pbs.org/newshour/wp-content/uploads/2014/02/52513928.jpg"
+		  },
+ 		  {
+			"prompt":"In September 2013 which terrorist group attacked a public mall in Kenya killing at least 62 people and injuring 175 more?",
+			"a":"Al-Qaida",
+			"b":"Al-Shabab",
+			"c":"Boko Haram",
+			"d":"Hamas",
+			"ans":"b",
+			"blurb":"<a href=\"http://www.pbs.org/newshour/extra/2013/09/attack-nairobi-highlights-ongoing-conflict-east-africa/\" target=\"_blank\">Al-Shabab attacked the mall<\/a> as part of an ongoing battle in East Africa against Islamist militants. The terrorist group used a Twitter handle that has now been disabled to announce that the attack was revenge for Kenya sending in troops to neighboring Somalia to battle the terrorist organization.",
+			"img":"http://www.pbs.org/newshour/extra/wp-content/uploads/sites/2/2013/11/kenya-e1380024873704.jpg"
+		  },
+		  {
+			"prompt":"In 1977 NASA launched Voyager 1 with the hopes to learn more about the planets in our solar system and beyond. Scientists reported that on August 25, 2013 Voyager left our solar system and is now in _______________.",
+			"a":"the Andromeda Galaxy",
+			"b":"interstellar space",
+			"c":"intergalactic space",
+			"d":"the magnetosphere",
+			"ans":"b",
+			"blurb":"On or around August 25, 2012, Voyager 1 became <a href=\"http://www.pbs.org/newshour/extra/2013/09/voyager-becomes-first-spacecraft-enter-interstellar-space/\" target=\"_blank\">the first man-made object to ever reach interstellar space.<\/a> Scientists estimate it is now 11 billion miles from Earth.",
+			"img":"http://www.pbs.org/newshour/extra/wp-content/uploads/sites/2/2013/11/NASAspaceimage.jpg"
+		  },
+  		  {
+			"prompt":"Why did the government shut down in October 2013, leaving thousands of government employees on furlough?",
+			"a":"Congress accidentally left a two-month gap in government funding.",
+			"b":"Republicans and Democrats could not agree on funding the education initiative, \"Race to the Top.\" ",
+			"c":"Republicans and Democrats could not agree on funding the Affordable Care Act, popularly known as Obamacare. ",
+			"d":"Congress reached the \"debt ceiling,\" which prevented them from funding the government until a new budget was passed.",
+			"ans":"b",
+			"blurb":"<a href=\"http://www.pbs.org/newshour/extra/daily_videos/government-shuts-affecting-millions/\" target=\"_blank\">The federal government shut down for the first time in 17 years when a disagreement over funding the Affordable Care Act prevented Congress from passing a budget. ",
+			"img":"http://www.pbs.org/newshour/extra/wp-content/uploads/sites/2/2013/11/kenya-e1380024873704.jpg"
+		  },
+  		  {
+			"prompt":"In September 2013 which terrorist group attacked a public mall in Kenya killing at least 62 people and injuring 175 more?",
+			"a":"Al Qaida",
+			"b":"Al Shabab",
+			"c":"Boko Haram",
+			"d":"Hamas",
+			"ans":"b",
+			"blurb":"The attack was part of an ongoing battle in East Africa against Islamist militants. Al-Shabab used a Twitter handle that has now been disabled to announce that the attack was revenge for Kenya sending in troops to neighboring Somalia to battle the terrorist organization.",
+			"img":"http://www.pbs.org/newshour/extra/wp-content/uploads/sites/2/2013/11/kenya-e1380024873704.jpg"
+		  }
+	]
+}
