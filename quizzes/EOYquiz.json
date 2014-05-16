@@ -70,7 +70,7 @@
 			"img":"http://www-tc.pbs.org/prod-media/newshour/photos/2013/11/25/foodstamps.jpg"
 		  },
 		  {
-			"prompt":"Nelson Mandela was a hero in his home country of South Africa for fighting the racist system of apartheid and a treasured human rights advocate around the world. During his struggle for equality his was imprisoned for ______ years.",
+			"prompt":"Nelson Mandela was a hero in his home country of South Africa for fighting the racist system of apartheid. He died in December 2013 and was remembered as a treasured human rights advocate around the world. During his struggle for equality his was imprisoned for ______ years.",
 			"a":"6",
 			"b":"12",
 			"c":"22",
@@ -80,7 +80,7 @@
 			"img":"http://www.pbs.org/newshour/wp-content/uploads/2014/04/mandelacrop_slideshow.jpg"
 		  },
 		  {
-			"prompt":"In August 2013 food workers went on strike to protest low wages and to demand an increase that, they say, will help to lift them out of poverty. The current minimum wage is ____ and they want it increased to ______.",
+			"prompt":"In August 2013 food workers went on strike to protest low wages and to demand an increase to help lift them out of poverty. The current minimum wage is ____ and they want to increase it to ______.",
 			"a":"$7.25 | $15.00",
 			"b":"$8.00 | $11.00",
 			"c":"$6.75 | $10.10",
@@ -106,11 +106,11 @@
 			"c":"Boko Haram",
 			"d":"Hamas",
 			"ans":"b",
-			"blurb":"<a href=\"http://www.pbs.org/newshour/extra/2013/09/attack-nairobi-highlights-ongoing-conflict-east-africa/\" target=\"_blank\">Al-Shabab attacked the mall<\/a> as part of an ongoing battle in East Africa against Islamist militants. The terrorist group used a Twitter handle that has now been disabled to announce that the attack was revenge for Kenya sending in troops to neighboring Somalia to battle the terrorist organization.",
+			"blurb":"The terrorist group <a href=\"http://www.pbs.org/newshour/extra/2013/09/attack-nairobi-highlights-ongoing-conflict-east-africa/\" target=\"_blank\">Al-Shabab attacked the mall<\/a> as part of an ongoing battle in East Africa against Islamist militants.",
 			"img":"http://www.pbs.org/newshour/extra/wp-content/uploads/sites/2/2013/11/kenya-e1380024873704.jpg"
 		  },
 		  {
-			"prompt":"In 1977 NASA launched Voyager 1 with the hopes to learn more about the planets in our solar system and beyond. Scientists reported that on August 25, 2013 Voyager left our solar system and is now in _______________.",
+			"prompt":"In 1977 NASA launched Voyager 1 with the hopes to learn more about the planets in our solar system and beyond. In September 2013, scientists reported they had now determined that Voyager left our solar system at or around August 25, 2012 and is now in _______________.",
 			"a":"the Andromeda Galaxy",
 			"b":"interstellar space",
 			"c":"intergalactic space",
@@ -119,15 +119,5 @@
 			"blurb":"On or around August 25, 2012, Voyager 1 became <a href=\"http://www.pbs.org/newshour/extra/2013/09/voyager-becomes-first-spacecraft-enter-interstellar-space/\" target=\"_blank\">the first man-made object to ever reach interstellar space.<\/a> Scientists estimate it is now 11 billion miles from Earth.",
 			"img":"http://www.pbs.org/newshour/extra/wp-content/uploads/sites/2/2013/11/NASAspaceimage.jpg"
 		  },
-  		  {
-			"prompt":"Why did the government shut down in October 2013, leaving thousands of government employees on furlough?",
-			"a":"Congress accidentally left a two-month gap in government funding.",
-			"b":"Republicans and Democrats could not agree on funding the education initiative, \"Race to the Top.\" ",
-			"c":"Republicans and Democrats could not agree on funding the Affordable Care Act, popularly known as Obamacare. ",
-			"d":"Congress reached the \"debt ceiling,\" which prevented them from funding the government until a new budget was passed.",
-			"ans":"c",
-			"blurb":"<a href=\"http://www.pbs.org/newshour/extra/daily_videos/government-shuts-affecting-millions/\" target=\"_blank\">The federal government shut down for the first time in 17 years when a disagreement over funding the Affordable Care Act prevented Congress from passing a budget. ",
-			"img":"http://www.pbs.org/newshour/extra/wp-content/uploads/sites/2/2013/11/kenya-e1380024873704.jpg"
-		  }
 	]
 }
