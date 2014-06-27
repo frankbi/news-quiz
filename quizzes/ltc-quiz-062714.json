@@ -1,0 +1,83 @@
+{
+	"info": {
+		"quizName": "Long Term Care Quiz",
+		"creationDate": "3/19/2014",
+		"creator": "Frank Bi",
+		"url": "http://www.pbs.org/newshour/rundown/quiz-much-know-long-term-care/",
+		"shortUrl": "http://to.pbs.org/Qw9pPS",
+		"twitterTextPart1": "I got ",
+		"twitterTextPart2": "%25 on PBS @NewsHour's long term care quiz! Can you beat my score?"
+	},
+	"ques": [
+	  {
+	    "prompt":"According to the U.S. Department of Health and Human Services, what percentage of people turning 65 will need long-term care services at some point in their lives?",
+	    "a":"35%",
+	    "b":"50%",
+	    "c":"70%",
+	    "d":"90%",
+	    "ans":"c",
+	    "blurb":"70% of people turning age 65 will need long-term care services, which the U.S. government defines as “services and supports necessary to meet health or personal care needs over an extended period of time.”",
+	    "img":""
+	  },
+	  {
+	    "prompt":"The AARP has found that a family caregiver who is 50 or older who leaves the workforce to care for a parent forgoes how much in salary and benefits over his or her lifetime?",
+	    "a":"$30,000",
+	    "b":"$45,000",
+	    "c":"$100,000",
+	    "d":"$304,000",
+	    "ans":"d",
+	    "blurb":"The average amount of time volunteered to care for a loved one by a long-term caregiver consists of 20 hours a week for five years.",
+	    "img":""
+	  },
+	  {
+	    "prompt":"One in five americans -- 56 million people -- has some level of disability. Of this population, 10.3 million people require long-term care. How is the majority of this care financed?",
+	    "a":"Medicare",
+	    "b":"Medicaid",
+	    "c":"individuals",
+	    "d":"private insurance",
+	    "ans":"b",
+	    "blurb":"Medicaid pays the greatest share of total U.S. long-term care spending at 40%. Medicare accounts for 23%, individuals and families 22%, and private insurance 12%, according to data compiled by the Commonwealth Fund.",
+	    "img":""
+	  },
+	  {
+	    "prompt":"What costs the most?",
+	    "a":"A private room in a nursing home for one month",
+	    "b":"Rent for a one-bedroom apartment in a building with a doorman in New York City  ",
+	    "c":"A 30-night stay at a comfortable Washington, D.C., chain hotel with a complimentary hot breakfast buffet but no pool",
+	    "d":"Rent for a single family home in Oahu, Hawaii",
+	    "ans":"c",
+	    "blurb":"Staying at a hotel for an extended period of time adds up. We calculated a 30-day stay for a King bed at a nice hotel in D.C. to be $7,284.49. But not far behind is a private room in a nursing home, at $6,965, according to LongTermCare.gov. Rent for a one-bedroom with a doorman in New York City is $3,789 and rent for a single family home in Hawaii is $2,300.",
+	    "img":""
+	  },
+	  {
+	    "prompt":"What is the average hourly wage for a home health aide?",
+	    "a":"$10.10",
+	    "b":"$18",
+	    "c":"$21",
+	    "d":"$30",
+	    "ans":"c",
+	    "blurb":"According to LongTermCare.gov’s latest figures, the average hourly wage for a home health aide was $21 in 2010.",
+	    "img":""
+	  },
+	  {
+	    "prompt":"Which one of these “life hacks” can help you “age in place”?",
+	    "a":"Adding safety strips to your bathtub",
+	    "b":"Installing motion sensor lighting in your home",
+	    "c":"Taping your rugs to the floor",
+	    "d":"All of the above",
+	    "ans":"d",
+	    "blurb":"All of these are life hacks, simple tools and tips that help people with everyday activities.",
+	    "img":""
+	  },
+	  {
+	    "prompt":"Which figure is the highest?",
+	    "a":"Dollar estimate of unpaid contributions by caregivers",
+	    "b":"Bill Gates’ net worth",
+	    "c":"Wal-Mart’s annual net sales",
+	    "d":"Number of cars GM has recalled in 2014",
+	    "ans":"a",
+	    "blurb":"Caregivers provide invaluable service and AARP estimates the economic value of unpaid contributions is roughly $450 billion. Wal-Mart’s net sales for the 12 months ending in April were $127.4 billion. Bill Gates is worth $78.8 billion. GM has recalled nearly 20 million cars so far this year.",
+	    "img":""
+	  }
+	]
+}
