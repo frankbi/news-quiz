@@ -1,0 +1,133 @@
+{
+	"info": {
+		"quizName": "7 startling facts about long-term care",
+		"creationDate": "7/22/2014",
+		"creator": "Beth Ponsot",
+		"url": "http://www.pbs.org/newshour/updates/quiz-7-startling-facts-long-term-care/",
+		"shortUrl": "http://to.pbs.org/1qPXond",
+		"twitterTextPart1": "I got ",
+		"twitterTextPart2": "%25 on PBS @NewsHour's long-term care quiz! Beat that."
+	},
+	"ques": [
+	  {
+	    "prompt":"Which organization is the national distributor of A Prairie Home Companion?",
+	    "a":"National Public Radio",
+	    "b":"Public Radio International",
+	    "c":"American Public Media",
+	    "d":"Corporation for Public Broadcasting",
+	    "ans":"c",
+	    "blurb":"",
+	    "img":""
+	  },
+	  {
+	    "prompt":"When does A Prairie Home Companion air live?",
+	    "a":"5pm CST on Saturday",
+	    "b":"5pm EST on Saturday",
+	    "c":"5pm CST on Sunday",
+	    "d":"5pm EST on Sunday",
+	    "ans":"a",
+	    "blurb":"",
+	    "img":""
+	  },
+	  {
+	    "prompt":"What church is located in Lake Wobegon?",
+	    "a":"Our Lady of the Merciful Redeemer",
+	    "b":"Our Lady of Perpetual Responsibility",
+	    "c":"Our Lady of Grace and Hope",
+	    "d":"Our Lady of Constant Sorrows",
+	    "ans":"b",
+	    "blurb":"",
+	    "img":""
+	  },
+	  {
+	    "prompt":"Which of the following is not one of APHC's fictional sponsors?",
+	    "a":"Bertha's Kitty Boutique",
+	    "b":"Ahua! Hot Sauce",
+	    "c":"Guy's Haircuts 'n' More",
+	    "d":"The American Duct Tape Council",
+	    "ans":"c",
+	    "blurb":"",
+	    "img":""
+	  },
+	  {
+	    "prompt":"What business is located in Lake Wobegon?",
+	    "a":"Chesterchew Grocery Store",
+	    "b":"Dales Shopping Mall",
+	    "c":"Chatterbox Cafe",
+	    "d":"The Dickmeier's Bake Shop",
+	    "ans":"c",
+	    "blurb":"",
+	    "img":""
+	  },
+	  {
+	    "prompt":"How many public-radio stations does A Prairie Home Companion air on?",
+	    "a":"600",
+	    "b":"1,000",
+	    "c":"450",
+	    "d":"300",
+	    "ans":"a",
+	    "blurb":"",
+	    "img":""
+	  },
+	  {
+	    "prompt":"What is the name of APHC's house band?",
+	    "a":"Wobegon Good Times Quartet",
+	    "b":"The Downbeat Dworskys",
+	    "c":"Pure Prairie League",
+	    "d":"The Guy's All Star Shoe Band",
+	    "ans":"d",
+	    "blurb":"",
+	    "img":""
+	  },
+	  {
+	    "prompt":"What song is usually played at the top of the APHC broadcast?",
+	    "a":"Tishomingo Blues",
+	    "b":"Turn the Radio Up",
+	    "c":"Hello Muddah, Hello Fadduh",
+	    "d":"Girl From the North Country",
+	    "ans":"a",
+	    "blurb":"",
+	    "img":""
+	  },
+	  {
+	    "prompt":"Who starred in the 2006 feature film with the same name?",
+	    "a":"Susan Sarandon",
+	    "b":"Meryl Streep",
+	    "c":"Diane Keaton",
+	    "d":"Glenn Close",
+	    "ans":"b",
+	    "blurb":"",
+	    "img":""
+	  },
+	  {
+	    "prompt":"Who directed the 2006 movie?",
+	    "a":"Woody Allen",
+	    "b":"Robert Altman",
+	    "c":"James L. Brooks",
+	    "d":"Mike Nichols",
+	    "ans":"b",
+	    "blurb":"",
+	    "img":""
+	  },
+	  {
+	    "prompt":"Who is Guy Noir?",
+	    "a":"A Private Eye",
+	    "b":"A French waiter",
+	    "c":"A hairdresser",
+	    "d":"Owner of the Chatterbox Cafe",
+	    "ans":"a",
+	    "blurb":"",
+	    "img":""
+	  },
+	  {
+	    "prompt":"What was APHC's home base, the Fitzgerald Theater, called before it was renamed?",
+	    "a":"Ordway Playhouse",
+	    "b":"St. Paul Theater",
+	    "c":"The World Theater",
+	    "d":"Dayton Theater",
+	    "ans":"c",
+	    "blurb":"",
+	    "img":""
+	  }
+	]
+}
