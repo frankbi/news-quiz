@@ -10,7 +10,8 @@ var responses = {
 	],
 	"good": [
 		{ "d": "Pretty good! Still room to improve." },
-		{ "d": "Perfection is alluding you." }
+		{ "d": "Perfection is alluding you." },
+		{ "d": "You must be strong, good looking and above average!" }
 	],
 	"perfect": [
 		{ "d": "Perfect score! Hallelujah!" },
